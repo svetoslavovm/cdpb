@@ -1,0 +1,44 @@
+/* Owl Carousel */
+.carousel-wrapper {
+  background-color: #dadfea;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  width: 60%;
+
+
+  .carousel {
+    img {
+      width: auto;
+      height: auto;
+    }
+
+    .owl-prev {
+      left: 0%;
+    }
+    .owl-next {
+      right: 0%;
+    }
+
+    .owl-prev,
+    .owl-next {
+      color: #fff;
+      position: absolute;
+      top: 50%;
+
+      span {
+        font-size: 5vmin;
+
+        &:hover {
+          text-shadow: 1px 1px #ccc;
+        }
+      }
+    }
+  }
+}
+
+.slick-arrow {
+  border: none;
+  background: transparent;
+  font-size: 35px;
+}

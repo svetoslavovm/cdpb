@@ -1,0 +1,41 @@
+nav {
+  background: #000;
+  border-bottom: 4px solid #c5960b;
+  @include flexbox;
+  @include justify-content(space-between);
+  @include align-items(center);
+  padding: 1vmax;
+
+  a {
+    color: #fff;
+    text-transform: uppercase;
+
+    img {
+      margin: 1vmax;
+      width: 15vmax;
+      max-width: 300px;
+    }
+  }
+
+  ul {
+    //@include flex-grow(1);
+    @include flexbox;
+
+    li {
+      margin-right: 1vmax;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+    a {
+      padding-bottom: .25vmax;
+      font-size: 1.25vmax;
+
+      &.current {
+        border-bottom: 2px solid #c5960b;
+      }
+    }
+  }
+}
