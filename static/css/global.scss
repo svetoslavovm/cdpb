@@ -1,0 +1,16 @@
+/**
+ * global.scss - This files contains references to all .scss files compiled via gulp
+ * ==========
+ *
+ * !! IMPORTANT !! - Always use absolute paths for static resources references (images, fonts, etc)
+ *
+ */
+
+//Fonts
+@import "mixins";
+@import "normalize.min";
+@import "main";
+@import "../slick-1.5.9/slick/slick.scss";
+@import "../slick-1.5.9/slick/slick-theme.scss";
+@import "../owl-carousel/owl-carousel/owl.carousel.scss";
+@import "../owl-carousel/owl-carousel/owl.transitions.scss";

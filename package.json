@@ -1,0 +1,35 @@
+{
+  "name": "CDPD",
+  "version": "0.0.0",
+  "description": "Custom District Pedal Boards",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svetoslavovm/cdpd.git"
+  },
+  "keywords": [
+    "cdpds",
+    "legal",
+    "documentation"
+  ],
+  "author": "Martin Svetoslavov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svetoslavovm/cdpd/issues"
+  },
+  "homepage": "https://github.com/svetoslavovm/cdpd#readme",
+  "dependencies": {
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-server-livereload": "^1.5.4",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.5"
+  }
+}
